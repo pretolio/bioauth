@@ -1,0 +1,4 @@
+#Tue Mar 16 15:54:40 BRT 2021
+base.0=C\:\\Users\\gabri\\AndroidStudioProjects\\bioauth\\example\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

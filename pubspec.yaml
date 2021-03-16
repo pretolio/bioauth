@@ -1,4 +1,4 @@
-name: local_auth
+name: bioauth
 description: Flutter plugin for Android and iOS device authentication sensors
   such as Fingerprint Reader and Touch ID.
 author: Flutter Team <flutter-dev@googlegroups.com>
@@ -15,7 +15,7 @@ dependencies:
   flutter:
     sdk: flutter
   meta: ^1.0.5
-  intl: ^
+  intl: ^0.16.1
 
 environment:
   sdk: ">=2.0.0-dev.28.0 <3.0.0"

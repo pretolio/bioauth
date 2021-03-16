@@ -7,7 +7,6 @@ import 'dart:io';
 
 import 'package:flutter/services.dart';
 import 'package:meta/meta.dart';
-
 import 'auth_strings.dart';
 import 'error_codes.dart';
 
