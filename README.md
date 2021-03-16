@@ -4,6 +4,7 @@ Versao da lib local_auth que funciona no android 7 ou inferior.
 
 
 ```dart
+dependencies:
     bioauth:
         git:
           url: git://github.com/pretolio/bioauth.git
@@ -16,7 +17,7 @@ Import the relevant file:
 import 'package:bioauth/local_auth.dart';
 ```  
 
--------------//-------------//-------------//-------------
+-------------//-------------//-------------//-------------//-------------//-------------//-------------//-------------
 
 
 This Flutter plugin provides means to perform local, on-device authentication of
