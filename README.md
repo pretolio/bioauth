@@ -3,6 +3,22 @@
 Versao da lib local_auth que funciona no android 7 ou inferior.
 
 
+```dart
+    bioauth:
+        git:
+          url: git://github.com/pretolio/bioauth.git
+          ref: main
+```
+
+Import the relevant file:
+
+```dart
+import 'package:bioauth/local_auth.dart';
+```  
+
+-------------//-------------//-------------//-------------
+
+
 This Flutter plugin provides means to perform local, on-device authentication of
 the user.
 
@@ -10,12 +26,6 @@ This means referring to biometric authentication on iOS (Touch ID or lock code)
 and the fingerprint APIs on Android (introduced in Android 6.0).
 
 ## Usage in Dart
-
-Import the relevant file:
-
-```dart
-import 'package:bioauth/local_auth.dart';
-```
 
 To check whether there is local authentication available on this device or not, call canCheckBiometrics:
 
