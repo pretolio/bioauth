@@ -1,4 +1,4 @@
-io.flutter.plugins.localauth
+io.flutter.plugins.bioauth
 attr alpha
 attr font
 attr fontProviderAuthority

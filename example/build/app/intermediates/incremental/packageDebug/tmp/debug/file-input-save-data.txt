@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Mar 16 15:54:41 BRT 2021
+#Tue Mar 16 19:26:49 BRT 2021
 4.path=flutter_assets/NOTICES
 8.set=ASSET
 6.path=flutter_assets/kernel_blob.bin

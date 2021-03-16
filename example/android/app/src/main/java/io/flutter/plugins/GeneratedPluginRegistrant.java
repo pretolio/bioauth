@@ -1,7 +1,7 @@
 package io.flutter.plugins;
 
 import io.flutter.plugin.common.PluginRegistry;
-import io.flutter.plugins.localauth.LocalAuthPlugin;
+import io.flutter.plugins.bioauth.LocalAuthPluginbioauth;
 
 /**
  * Generated file. Do not edit.
@@ -11,7 +11,7 @@ public final class GeneratedPluginRegistrant {
     if (alreadyRegisteredWith(registry)) {
       return;
     }
-    LocalAuthPlugin.registerWith(registry.registrarFor("io.flutter.plugins.localauth.LocalAuthPlugin"));
+    LocalAuthPluginbioauth.registerWith(registry.registrarFor("io.flutter.plugins.bioauth.LocalAuthPluginbioauth"));
   }
 
   private static boolean alreadyRegisteredWith(PluginRegistry registry) {

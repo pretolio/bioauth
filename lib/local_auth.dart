@@ -12,7 +12,7 @@ import 'error_codes.dart';
 
 enum BiometricType { face, fingerprint, iris }
 
-const MethodChannel _channel = MethodChannel('plugins.flutter.io/local_auth');
+const MethodChannel _channel = MethodChannel('plugins.flutter.io/bioauth');
 
 /// A Flutter plugin for authenticating the user identity locally.
 class LocalAuthentication {
