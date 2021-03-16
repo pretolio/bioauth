@@ -1,4 +1,7 @@
-# local_auth
+# bioauth
+
+Versao da lib local_auth que funciona no android 7 ou inferior.
+
 
 This Flutter plugin provides means to perform local, on-device authentication of
 the user.
@@ -11,7 +14,7 @@ and the fingerprint APIs on Android (introduced in Android 6.0).
 Import the relevant file:
 
 ```dart
-import 'package:local_auth/local_auth.dart';
+import 'package:bioauth/local_auth.dart';
 ```
 
 To check whether there is local authentication available on this device or not, call canCheckBiometrics:
@@ -77,7 +80,7 @@ You can use our default dialog messages, or you can use your own messages by
 passing in IOSAuthMessages and AndroidAuthMessages:
 
 ```dart
-import 'package:local_auth/auth_strings.dart';
+import 'package:bioauth/auth_strings.dart';
 
 const iosStrings = const IOSAuthMessages(
     cancelButton: 'cancel',
@@ -99,7 +102,7 @@ catch the exception and handle them by different types. For example:
 
 ```dart
 import 'package:flutter/services.dart';
-import 'package:local_auth/error_codes.dart' as auth_error;
+import 'package:bioauth/error_codes.dart' as auth_error;
 
 try {
   bool didAuthenticate = await local_auth.authenticateWithBiometrics(
@@ -134,6 +137,7 @@ Update your project's `AndroidManifest.xml` file to include the
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.app">
   <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+  <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
 <manifest>
 ```
 
