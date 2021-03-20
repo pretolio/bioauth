@@ -9,55 +9,55 @@
     },
     {
       "name": "characters",
-      "rootUri": "file:///C:/srv/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.3",
+      "rootUri": "file:///Users/wilderrenne/development/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.3",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "collection",
-      "rootUri": "file:///C:/srv/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0-nullsafety.3",
+      "rootUri": "file:///Users/wilderrenne/development/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0-nullsafety.3",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "flutter",
-      "rootUri": "file:///C:/srv/flutter/packages/flutter",
+      "rootUri": "file:///Users/wilderrenne/development/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "intl",
-      "rootUri": "file:///C:/srv/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1",
+      "rootUri": "file:///Users/wilderrenne/development/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1",
       "packageUri": "lib/",
       "languageVersion": "2.5"
     },
     {
       "name": "meta",
-      "rootUri": "file:///C:/srv/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0-nullsafety.3",
+      "rootUri": "file:///Users/wilderrenne/development/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0-nullsafety.3",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "path",
-      "rootUri": "file:///C:/srv/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.7.0",
+      "rootUri": "file:///Users/wilderrenne/development/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.7.0",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///C:/srv/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/wilderrenne/development/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "1.11"
     },
     {
       "name": "typed_data",
-      "rootUri": "file:///C:/srv/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0-nullsafety.3",
+      "rootUri": "file:///Users/wilderrenne/development/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0-nullsafety.3",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///C:/srv/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0-nullsafety.3",
+      "rootUri": "file:///Users/wilderrenne/development/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0-nullsafety.3",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
@@ -67,7 +67,7 @@
       "packageUri": "lib/"
     }
   ],
-  "generated": "2021-03-16T22:25:33.785249Z",
+  "generated": "2021-03-20T21:15:49.766474Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }
