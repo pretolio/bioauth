@@ -1,6 +1,6 @@
 # bioauth
 
-Versao da lib local_auth que funciona no android 7 ou inferior.
+Versao da lib bioauth que funciona no android 7 ou inferior.
 
 
 ```dart
@@ -14,7 +14,7 @@ dependencies:
 Import the relevant file:
 
 ```dart
-import 'package:bioauth/local_auth.dart';
+import 'package:bioauth/bioauth.dart';
 ```  
 
 
@@ -118,7 +118,7 @@ import 'package:flutter/services.dart';
 import 'package:bioauth/error_codes.dart' as auth_error;
 
 try {
-  bool didAuthenticate = await local_auth.authenticateWithBiometrics(
+  bool didAuthenticate = await bioauth.authenticateWithBiometrics(
       localizedReason: 'Please authenticate to show account balance');
 } on PlatformException catch (e) {
   if (e.code == auth_error.notAvailable) {

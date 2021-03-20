@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "bioauth",
+      "rootUri": "../../",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "characters",
       "rootUri": "file:///Users/wilderrenne/development/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.3",
       "packageUri": "lib/",
@@ -56,13 +62,12 @@
       "languageVersion": "2.10"
     },
     {
-      "name": "bioauth",
+      "name": "bioauth_example",
       "rootUri": "../",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
+      "packageUri": "lib/"
     }
   ],
-  "generated": "2021-03-20T22:13:34.946699Z",
+  "generated": "2021-03-20T22:41:57.308329Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }

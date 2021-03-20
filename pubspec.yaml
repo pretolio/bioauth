@@ -8,8 +8,6 @@ version: 0.4.0+1
 flutter:
   plugin:
     androidPackage: io.flutter.plugins.bioauth
-    iosPrefix: FLT
-    pluginClass: LocalAuthPluginbioauth
 
 dependencies:
   flutter:

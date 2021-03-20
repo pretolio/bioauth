@@ -1,6 +1,6 @@
-# local_auth_example
+# bioauth_example
 
-Demonstrates how to use the local_auth plugin.
+Demonstrates how to use the bioauth plugin.
 
 ## Getting Started
 

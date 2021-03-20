@@ -44,7 +44,7 @@ public class LocalAuthPluginbioauth implements MethodCallHandler {
       }
       Activity activity = registrar.activity();
       if (activity == null || activity.isFinishing()) {
-        result.error("no_activity", "local_auth plugin requires a foreground activity", null);
+        result.error("no_activity", "bioauth plugin requires a foreground activity", null);
         return;
       }
       AuthenticationHelper authenticationHelper =

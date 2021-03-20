@@ -72,7 +72,7 @@ class IOSAuthMessages {
   }
 }
 
-// Strings for local_authentication plugin. Currently supports English.
+// Strings for bioauthentication plugin. Currently supports English.
 // Intl.message must be string literals.
 String get androidFingerprintHint => Intl.message('Touch sensor',
     desc: 'Hint message advising the user how to scan their fingerprint. It is '

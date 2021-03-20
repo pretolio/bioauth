@@ -4,7 +4,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:bioauth/local_auth.dart';
+import 'package:bioauth/bioauth.dart';
 
 void main() {
   runApp(MyApp());
