@@ -52,7 +52,6 @@ class LocalAuthentication {
     bool useErrorDialogs = true,
     bool stickyAuth = false,
     AndroidAuthMessages androidAuthStrings = const AndroidAuthMessages(),
-    IOSAuthMessages iOSAuthStrings = const IOSAuthMessages(),
   }) async {
     assert(localizedReason != null);
     final Map<String, Object> args = <String, Object>{
@@ -60,14 +59,12 @@ class LocalAuthentication {
       'useErrorDialogs': useErrorDialogs,
       'stickyAuth': stickyAuth,
     };
-    if (Platform.isIOS) {
-      args.addAll(iOSAuthStrings.args);
-    } else if (Platform.isAndroid) {
+    if (Platform.isAndroid) {
       args.addAll(androidAuthStrings.args);
     } else {
       throw PlatformException(
           code: otherOperatingSystem,
-          message: 'Local authentication does not support non-Android/iOS '
+          message: 'Local authentication does not support non-Android '
               'operating systems.',
           details: 'Your operating system is ${Platform.operatingSystem}');
     }
