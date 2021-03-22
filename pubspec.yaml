@@ -7,7 +7,7 @@ version: 0.4.0+1
 
 flutter:
   plugin:
-    androidPackage: io.flutter.plugins.bioauth
+    androidPackage: io.flutter.plugins.bioaut
 
 dependencies:
   flutter:
