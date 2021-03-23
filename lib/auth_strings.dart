@@ -2,7 +2,6 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-
 /// Android side authentication messages.
 ///
 /// Provides default values for all messages.
@@ -72,59 +71,31 @@ class IOSAuthMessages {
 }
 
 // Strings for bioauthentication plugin. Currently supports English.
-// Intl.message must be string literals.
-String get androidFingerprintHint => ('Touch sensor\n'+
-    'Hint message advising the user how to scan their fingerprint. It is '
-        'used on Android side. Maximum 60 characters.');
+//  must be string literals.
+String get androidFingerprintHint => ('Touch sensor');
 
 String get androidFingerprintNotRecognized =>
-    ('Fingerprint not recognized. Try again.\n' +
-         'Message to let the user know that authentication was failed. It '
-            'is used on Android side. Maximum 60 characters.');
+    ('Fingerprint not recognized. Try again.');
 
-String get androidFingerprintSuccess => ('Fingerprint recognized.\n'+
-     'Message to let the user know that authentication was successful. It '
-        'is used on Android side. Maximum 60 characters.');
+String get androidFingerprintSuccess => ('Fingerprint recognized.');
 
-String get androidCancelButton => ('Cancel\n' +
-     'Message showed on a button that the user can click to leave the '
-        'current dialog. It is used on Android side. Maximum 30 characters.');
+String get androidCancelButton => ('Cancel');
 
-String get androidSignInTitle => ('Fingerprint Authentication\n'+
-    'Message showed as a title in a dialog which indicates the user '
-        'that they need to scan fingerprint to continue. It is used on '
-        'Android side. Maximum 60 characters.');
+String get androidSignInTitle => ('Fingerprint Authentication' );
 
 String get androidFingerprintRequiredTitle {
-  return ('Fingerprint required\n'+
-      'Message showed as a title in a dialog which indicates the user '
-          'fingerprint is not set up yet on their device. It is used on Android'
-          ' side. Maximum 60 characters.');
+  return ('Fingerprint required');
 }
 
-String get goToSettings => ('Go to settings\n'+
-    'Message showed on a button that the user can click to go to '
-        'settings pages from the current dialog. It is used on both Android '
-        'and iOS side. Maximum 30 characters.');
+String get goToSettings => ('Go to settings');
 
 String get androidGoToSettingsDescription => (
-    'Fingerprint is not set up on your device. Go to '
-    '\'Settings > Security\' to add your fingerprint.\n'+
-        'Message advising the user to go to the settings and configure '
-        'fingerprint on their device. It shows in a dialog on Android side.');
+    'Fingerprint is not set up on your device. Go to \'Settings > Security\' to add your fingerprint.');
 
 String get iOSLockOut => (
-    'Biometric authentication is disabled. Please lock and unlock your screen to '
-    'enable it.\n'+
-        'Message advising the user to re-enable biometrics on their device. It '
-        'shows in a dialog on iOS side.');
+    'Biometric authentication is disabled. Please lock and unlock your screen to enable it.');
 
 String get iOSGoToSettingsDescription => (
-    'Biometric authentication is not set up on your device. Please either enable '
-    'Touch ID or Face ID on your phone.\n'+
-        'Message advising the user to go to the settings and configure Biometrics '
-        'for their device. It shows in a dialog on iOS side.');
+    'Biometric authentication is not set up on your device. Please either enable Touch ID or Face ID on your phone.' );
 
-String get iOSOkButton => ('OK\n'+
-     'Message showed on a button that the user can click to leave the '
-        'current dialog. It is used on iOS side. Maximum 30 characters.');
+String get iOSOkButton => ('OK');

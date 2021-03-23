@@ -1,27 +1,5 @@
 # bioauth
 
-Versao da lib bioauth que funciona no android 7 ou inferior.
-
-
-```dart
-dependencies:
-    bioauth:
-        git:
-          url: git://github.com/pretolio/bioauth.git
-          ref: main
-```
-
-Import the relevant file:
-
-```dart
-import 'package:bioauth/bioauth.dart';
-```  
-
-
------------------------------//-----------------------------------------------//-----------------------------------------------//-----------------------------
-
-
-
 This Flutter plugin provides means to perform local, on-device authentication of
 the user.
 
@@ -29,6 +7,12 @@ This means referring to biometric authentication on iOS (Touch ID or lock code)
 and the fingerprint APIs on Android (introduced in Android 6.0).
 
 ## Usage in Dart
+
+Import the relevant file:
+
+```dart
+import 'package:bioauth/bioauth.dart';
+```
 
 To check whether there is local authentication available on this device or not, call canCheckBiometrics:
 
@@ -150,7 +134,6 @@ Update your project's `AndroidManifest.xml` file to include the
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.app">
   <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
-  <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
 <manifest>
 ```
 

@@ -1,13 +1,14 @@
 name: bioauth
-description: Flutter plugin for Android device authentication sensors
+description: Flutter plugin for Android and iOS device authentication sensors
   such as Fingerprint Reader and Touch ID.
 author: Flutter Team <flutter-dev@googlegroups.com>
-homepage: https://github.com/pretolio/bioauth
+homepage: https://github.com/flutter/plugins/tree/master/packages/bioauth
 version: 0.4.0+1
 
 flutter:
   plugin:
-    androidPackage: io.flutter.plugins.bioaut
+    androidPackage: io.flutter.plugins.bioauth
+
 
 dependencies:
   flutter:

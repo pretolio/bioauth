@@ -7,6 +7,7 @@ import 'dart:io';
 
 import 'package:flutter/services.dart';
 import 'package:meta/meta.dart';
+
 import 'auth_strings.dart';
 import 'error_codes.dart';
 
@@ -52,6 +53,7 @@ class LocalAuthentication {
     bool useErrorDialogs = true,
     bool stickyAuth = false,
     AndroidAuthMessages androidAuthStrings = const AndroidAuthMessages(),
+    IOSAuthMessages iOSAuthStrings = const IOSAuthMessages(),
   }) async {
     assert(localizedReason != null);
     final Map<String, Object> args = <String, Object>{
@@ -59,12 +61,14 @@ class LocalAuthentication {
       'useErrorDialogs': useErrorDialogs,
       'stickyAuth': stickyAuth,
     };
-    if (Platform.isAndroid) {
+    if (Platform.isIOS) {
+      args.addAll(iOSAuthStrings.args);
+    } else if (Platform.isAndroid) {
       args.addAll(androidAuthStrings.args);
     } else {
       throw PlatformException(
           code: otherOperatingSystem,
-          message: 'Local authentication does not support non-Android '
+          message: 'Local authentication does not support non-Android/iOS '
               'operating systems.',
           details: 'Your operating system is ${Platform.operatingSystem}');
     }
